@@ -1,0 +1,17 @@
+.html {
+    width: 100%;
+}
+
+.body {
+    width: 100%;
+}
+
+.container {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.nav-image {
+    background-image: url(image/rose.jpg);
+}
