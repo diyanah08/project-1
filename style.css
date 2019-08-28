@@ -1,15 +1,10 @@
-.html {
-    width: 100%;
-}
-
 .body {
-    width: 100%;
+    margin: 0px;
 }
 
 .container {
     margin: 0px;
     padding: 0px;
-    width: 100%;
 }
 
 .bg-light {
@@ -28,4 +23,25 @@
   text-shadow: 3px 3px rgba(28, 28, 131, 0.226);
   margin: 50px;
   width: 300px;
+}
+
+#aboutme {
+    background-image: url(image/aboutme.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutme-text {
+    color: pink;
+    width: 300px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+@media (max-width:400px) {
+    .aboutme-text {
+        width: 300px;
+    }
 }
